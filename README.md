@@ -25,6 +25,9 @@ This is a pure client‑side proof-of-concept that demonstrates how to interact 
    Submit a job (in this example, a `cowsay` job) by calling `runJob()` on the Job Creator contract.  
    The transaction’s logs are parsed for a `JobAdded` event to obtain the job ID.
 
+![image](https://github.com/user-attachments/assets/e9c807e3-af44-4e28-80dd-ae252ba3009f)
+![image](https://github.com/user-attachments/assets/65fa9522-d225-4fa8-a22a-e2094a3a481f)
+
 > **Important:**  
 > - Because this is an EOA (externally owned account) interacting directly, the on‑chain callback mechanism (via `submitResults`) won’t be received automatically. You will need to monitor events or use an off‑chain system to retrieve the job result.
 > - Ensure you’re connected to the correct network (currently Arbitrum Sepolia (Testnet) for the production controller).
