@@ -3,7 +3,7 @@
 This is a pure client‑side proof-of-concept that demonstrates how to interact with the Lilypad system via web3.js. The flow is as follows:
 
 > [!NOTE]  
-> Not fully working yet. The `runJob` function and transactions seems to be triggered correctly, but the job is not being executed.
+> Not fully working yet. The `runJob` function and transactions seems to be triggered, but the job is not being executed.
 
 1. **Connect Wallet:**  
    Connect using MetaMask.
