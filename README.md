@@ -2,6 +2,9 @@
 
 This is a pure client‑side proof-of-concept that demonstrates how to interact with the Lilypad system via web3.js. The flow is as follows:
 
+> [!NOTE]  
+> Not fully working yet. The `runJob` function and transactions seems to be triggered correctly, but the job is not being executed.
+
 1. **Connect Wallet:**  
    Connect using MetaMask.
 
@@ -24,7 +27,7 @@ This is a pure client‑side proof-of-concept that demonstrates how to interact 
 
 > **Important:**  
 > - Because this is an EOA (externally owned account) interacting directly, the on‑chain callback mechanism (via `submitResults`) won’t be received automatically. You will need to monitor events or use an off‑chain system to retrieve the job result.
-> - Ensure you’re connected to the correct network (typically Ethereum mainnet for the production controller).
+> - Ensure you’re connected to the correct network (currently Arbitrum Sepolia (Testnet) for the production controller).
 
 ## Files
 
@@ -43,4 +46,3 @@ This is a pure client‑side proof-of-concept that demonstrates how to interact 
    ```bash
    python -m http.server 8080
    ```
-   
