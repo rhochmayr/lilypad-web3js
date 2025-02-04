@@ -45,8 +45,13 @@ This is a pure client‑side proof-of-concept that demonstrates how to interact 
 
 2. **Serve the Files:**  
    This project is entirely client‑side. You can host it on a static web server (e.g., using GitHub Pages, Netlify, or a simple local server). Or just open the `index.html` file in your browser.
-   
+
    For example, using Python 3:
    ```bash
    python -m http.server 8080
    ```
+
+## References
+
+- [smart-contract-jobs](https://github.com/Lilypad-Tech/lilypad/blob/main/docs/smart-contract-jobs.md)
+- [LilypadOnChainJobCreator](https://github.com/Lilypad-Tech/lilypad/blob/main/hardhat/contracts/LilypadOnChainJobCreator.sol)
