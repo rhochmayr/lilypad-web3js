@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lilypad Job POC with Production Controller</title>
+  <!-- Load web3.js from a CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.8.2/dist/web3.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    button { margin: 5px 0; padding: 10px 20px; }
+    #logs { border: 1px solid #ccc; padding: 10px; height: 300px; overflow: auto; background: #f9f9f9; }
+  </style>
+</head>
+<body>
+  <h1>Lilypad Job POC with Production Controller</h1>
+  <button id="connectButton">Connect Wallet</button>
+  <button id="approveButton" disabled>Approve Tokens</button>
+  <button id="runJobButton" disabled>Run runCowsay Job</button>
+  <div id="logs"></div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
